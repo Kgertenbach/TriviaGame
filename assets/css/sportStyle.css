@@ -1,0 +1,154 @@
+body {
+background:url("../images/sportsQuestionareBackground.png");
+}
+
+h1 {
+font-family: 'Ranchers', cursive;
+text-align: center;
+font-size: 100px;    
+line-height: 150px;
+color: #ee8522;
+text-decoration: none;
+background:url("../images/questionMark.jpg");
+border-bottom: 1px solid #dddddd;
+text-shadow:
+-3px -3px 0 white,
+3px -3px 0 white,
+-3px 3px 0 white,
+3px 3px 0 white;  
+}
+
+#subwrapper{
+    text-align: center;
+    height: 750px;
+}
+a {
+    color: inherit; 
+    text-decoration: inherit;
+  }
+img {
+    margin-left:500px;
+    margin:50px;
+    border-radius: 5%;
+    height:450px;
+    border: 25px solid #16076e;
+}
+  h4 {
+    margin-left:500px;
+    font-family: 'Bangers', cursive;
+    color: #2d23b1;
+    font-size: 70px;  
+    margin: 30px;
+  }
+  h2 {
+    font-family: 'Crimson Text', serif;
+    color:  #0a5a11;
+    font-size: 30px;  
+    margin: 30px;
+  }
+  h3 {
+    font-family: 'Crimson Text', serif;
+    color:  #0c0f91;
+    font-size: 40px;  
+    margin: 30px;
+  }
+    #start {
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        margin: 50px;
+        height: 164px;
+        width: 400px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 55px;
+        font-family: 'Bangers', cursive;
+        border-color: #065a1b;
+        color:#537929;
+        text-shadow:
+        -3px -3px 0 white,
+        3px -3px 0 white,
+        -3px 3px 0 white,
+        3px 3px 0 white; 
+        background:url("../images/sportsBackground.jpg")
+    }
+    
+    #start:hover {
+        background-color: rgb(199, 27, 5); /* Green */
+        color: white;
+        text-shadow:
+        -3px -3px 0 #0a169b,
+        3px -3px 0 #0a169b,
+        -3px 3px 0 #0a169b,
+        3px 3px 0 #0a169b; 
+    }
+
+    button {
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        border-radius: 20%;
+        text-align: center;
+        line-height: 65px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 45px;
+        font-family: 'Bangers', cursive;
+        margin: 15px;
+        padding:30px;
+        border-color: #077756;
+        color:#0a169b;
+        text-shadow:
+        -3px -3px 0 white,
+        3px -3px 0 white,
+        -3px 3px 0 white,
+        3px 3px 0 white; 
+        
+    }
+    
+    button:hover {
+        background-color: rgb(141, 88, 8); /* Green */
+        color: white;
+        text-shadow:
+        -3px -3px 0 #0a169b,
+        3px -3px 0 #0a169b,
+        -3px 3px 0 #0a169b,
+        3px 3px 0 #0a169b; 
+    }
+
+    .image {
+        margin-left:500px;
+        height:400px;
+    
+    }
+    @media screen and (max-width: 980px)  {
+        button {
+            clear: both;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            border-radius: 20%;
+            text-align: center;
+            line-height: 65px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 30px;
+            font-family: 'Bangers', cursive;
+            margin: 10px;
+            padding:20px;  
+        }
+        img {
+            margin-left:300px;
+            margin:50px;
+            border-radius: 20%;
+            height:300px;
+        }
+
+    }
+
+    @media screen and (max-width: 768px)  {
+
+    }
+    @media screen and (max-width: 640px)  {
+    }
+    
+

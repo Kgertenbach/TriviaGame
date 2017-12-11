@@ -1,0 +1,194 @@
+body {
+background:url("../images/gridPaper.png");
+}
+header {
+text-align: center;
+font-size: 150px;    
+line-height: 200px;
+font-family: 'Ranchers', cursive;
+color: #ee8522;
+background:url("../images/questionMark.jpg");
+border-bottom: 1px solid #dddddd;
+text-shadow:
+-3px -3px 0 white,
+3px -3px 0 white,
+-3px 3px 0 white,
+3px 3px 0 white;  
+}
+
+.instructions {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 25px;
+    line-height: 35px;
+    padding:40px;
+    margin:50px;
+    background: #f1dc7e;
+    border-bottom: 1px solid #dddddd;
+}
+table {
+    margin-left: 90px;
+}
+.categoryImage {
+    width: auto;
+    height: 230px;
+    margin:50px;
+    border: 3px solid #dddddd;
+    border-radius: 10%;
+   }
+  
+   #tvCategories{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 60px;
+    width: 250px;
+    height: 35px;
+    font-family: 'Bangers', cursive;
+    font-size: 70px;
+    line-height: 25px;
+    text-align: center;
+    color: #8423b1;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
+   }
+   #sportsCategories{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 70px;
+    width: 250px;
+    height: 35px;
+    font-family: 'Bangers', cursive;
+    font-size: 70px;
+    line-height: 25px;
+    text-align: center;
+    color: #2d23b1;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
+   }
+   #spaceCategories{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 70px;
+    width: 250px;
+    height: 35px;
+    font-family: 'Bangers', cursive;
+    font-size: 70px;
+    line-height: 25px;
+    text-align: center;
+    color: #e4121c;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
+   }
+   #historyCategories{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 60px;
+    width: 250px;
+    height: 35px;
+    font-family: 'Bangers', cursive;
+    font-size: 70px;
+    line-height: 25px;
+    text-align: center;
+    color: #10ad25;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;  
+   }
+   
+   h3{
+    margin:20px;
+    font-size: 90px;
+    font-family: 'Ranchers', cursive;
+   }
+
+   @media screen and (max-width: 980px) {
+    
+
+header {
+
+font-size: 100px;    
+line-height: 150px;
+}
+
+.instructions {
+
+    font-size: 20px;
+    line-height: 30px;
+    padding:30px;
+    margin:40px;
+}
+table {
+    margin-left: 110px;
+}
+.categoryImage {
+    width: auto;
+    height: 200px;
+    margin:50px;
+
+   }
+  
+   #tvCategories{
+
+    margin-left: 60px;
+    width: 250px;
+    height: 35px;
+    font-size: 50px;
+    line-height: 65px;
+   }
+   #sportsCategories{
+    margin-top: 175px;
+    margin-left: 70px;
+    width: 250px;
+    height: 35px;
+   }
+   #spaceCategories{
+    margin-top: 175px;
+    margin-left: 70px;
+    width: 250px;
+    height: 35px;
+    font-size: 70px;
+    line-height: 25px;
+
+   }
+   #historyCategories{
+    margin-top: 175px;
+    margin-left: 60px;
+    width: 250px;
+    height: 35px;
+    font-size: 60px;
+    line-height: 25px;
+
+   }
+}
+   
+   h3{
+    margin:20px;
+    font-size: 70px;
+   }
+  @media screen and (max-width: 768px)  {
+    table {
+        clear: both;
+        width: 75%;
+        clear:both;
+        position: relative;
+        width: 270px;
+        margin-left: 5px;
+        object-position: bottom;
+    }
+}
+  @media screen and (max-width: 640px) {
+    table {
+        clear: both;
+    }
+  
+}

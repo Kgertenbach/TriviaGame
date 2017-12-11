@@ -1,0 +1,68 @@
+<!-- You'll create a trivia game that shows only one question until the player answers it or their time runs out.
+If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question -- do this without user input.
+
+The scenario is similar for wrong answers and time-outs.
+
+
+If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
+If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
+
+
+On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+
+ -->
+ <!doctype html>
+ <html lang="en-us">
+ 
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Karen Gertenbach: Trivia Game</title>
+   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <link rel="stylesheet" media="mediatype and|not|only (media feature)" href="assets/css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy|Ranchers" rel="stylesheet">
+ </head>
+ 
+ <!-- My Game -->
+ 
+ <body>
+     <div class="container">
+         <header>
+         <h1>Trivia Game</h1>
+         </header>
+     </div>
+ 
+     <!-- Game instructions -->
+     <div class='instructions'>
+             <p>~ Pick a category using the icons displayed below.</p>
+             <p>~ You have 30 seconds to answer each question.</p>
+             <p>~ Each question is mutiple choice.</p>
+             <p>~ Click the choice you believe to be correct to record your answer</p>
+     </div>
+ 
+     <!-- Play area -->
+     <div class="userTotal">
+          <h3>Categories:</h3>
+         <h4 id="finalTotal"></h4>
+     </div>
+     <table>
+        <td>
+            <a href="tvQuestionare.html"><h2 id="tvCategories">Television</h2><img src="assets/images/tv.jpeg" class=categoryImage id="one" alt="T.V."></a>
+        </td>
+        <td>
+            <a href="sportsQuestionare.html"><h2 id="sportsCategories">Sports</h2><img src="assets/images/Sports.jpeg" class=categoryImage id="two" alt="Sports"></a>
+        </td>
+    </table>
+    <!-- <table>
+        <td>
+            <a href="spaceQuestionare.html"><h2 id="spaceCategories">Space</h2><img src="assets/images/Space.jpg" class=categoryImage id= "three" alt="Space"></a>
+        </td>
+        <td>
+            <a href="historyQuestionare.html"><h2 id="historyCategories">History</h2><img src="assets/images/History.jpeg" class=categoryImage id= "four" alt="History"></a>
+        </td>
+    </table>          -->
+    </div>
+ 
+ </body>
+ </html>
